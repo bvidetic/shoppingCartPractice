@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<link rel="stylesheet" href="styles.css">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="main.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+	<main class="main">
+	<body style="background-image:url(hockey_ice.jpg)">
+
+	<!-- The Header****************************************** -->
+
+		<div class="headercontainer">
+			<div class="content1">
+				<h1 class="h1">HOCKEY JUNKIE.COM</h1>
+				<img class="adhere" src="dhockey.JPG" alt="ad here">
+			</div>
+		</div>
+
+		<br>
+
+
+	<!-- The Cart****************************************** -->
+
+		<div class="asidecontainer">
+			<div class="asidetop">
+				<div class="topcontent">CART
+				<div class="bottomcontent">
+				<button class="remove-all">Remove All</button>
+					<ul class="cart"></ul>
+					<div class="checkout"><button id="checkout">Checkout</button></div>
+						<script>
+							$(document).ready(function(){
+							});
+						</script>
+				</div>
+				</div>
+			</div>
+		</div>
+
+
+	<!-- The Products************************************** -->
+
+		<div class="mainPcontainer">
+			<div class="mainGray">
+				<div class="h2">CLEARANCE EQUIPMENT SALE</div>
+					<div class="box1">
+						<div id="div1" style="width:716px;height:284px;display:none;background-color:gray; border-radius:5px;">
+							<div class="h3">CHECKOUT</div>
+							<ul class="cart"></ul>
+							<div class="form">
+								<form action="index.php" method="POST" id="cart_form">
+								<input type="text" name="first_name" class="first_name" placeholder="First Name">
+								<input type="text" name="last_name" class="last_name" placeholder="Last Name"><br>
+								<input type="text" name="address" class="address" placeholder="Address"><br>
+								<input type="text" name="city" class="city" placeholder="City">
+								<input type="text" name="state" class="state" placeholder="State">
+								<input type="zip" name="zip" class="zip" placeholder="Zip"><br>
+								<input type="text" name="email"	class="email" placeholder="Email">
+								<input type="text" name="phone" class="phone" placeholder="Phone"><br>
+								<input type="number" name="cc_number" class="cc_number" placeholder="cc_number"><br>
+								<button id="test" class="submit_game">Submit</button>
+								<div class="keepshopping"><button id="keepshopping">Keep Shopping</button></div>
+							
+									<script>
+										$(document).ready(function(){
+										});
+									
+									</script>
+							</div>
+						</div>
+						<ul class="products" >
+						<img src="graf9035.jpg" alt="skate" width="275" height="200">
+						<div class= "info">
+							Graf is getting in on the composite boot game and, in true Graf fashion, they tried the idea and perfected it in every way.  While the Ultra G9035 lets you fly the same way as the 2013 G75 model, your protection and fit vastly improve in this model. With a 3D heel lock that you can physically see to stabilize your foot, the G9035 is the first skate to incorporate carbon fiber in a moldable quarter panel. Some skates make you choose between fit and protection; the G9035 is the exception.
+						</div>
+						<li class="GRAF G9035">GRAF G9035 SKATES $800 <button>Add to Cart</button></li>
+						</ul>
+					</div>
+
+
+					<div class="box1">
+						<ul class="products" >
+						<img src="bauernexus.jpg" alt="bauernexus" width="200" height="200">
+						<div class= "info">
+							The NEXUS series of sticks is the family in the Bauer stick line-up with a Tru-mid flex profile. If you are a player that is looking for a well-balanced stick with a quick, effortless release with natural power, you should give these a serious look. The Nexus 8000 is a true one-piece stick which means that through the single molding process, which Bauer refers to as their Monocomp Technology, they can remove excess material all while improving balance and ensuring performance consistency. Bauer uses premium lightweight 12k woven carbon fiber in the shaft of this stick because it is better at managing stress than 3k woven carbon fiber, which is very often found in high end composite sticks. 
+						</div>
+						<li class="STICK">BAUER NEXUS 8000 STICK $330 <button>Add to Cart</button></li>
+						</ul>
+					</div>
+
+					<div class="box1">
+						<ul class="products" >
+						<img src="gloves.jpg" alt="gloves" width="200" height="200">
+						<div class= "info">
+							When you wrap your hands around Bauer's Vapor APX2 Composite Stick, you want to feel the curves of the shaft as close to your palms as possible. With the APX2 Gloves, you will be closer than ever before.  Bauer designed and engineered its top-of-the-line gloves to mirror the feedback provided by young, elite players in the game today. When your hands slide into the APX 2 Gloves, you'll truly feel the emphasis Bauer put on comfort and durability, as well as the ability to develop a more lightweight glove. This was accomplished mainly because of the use of triple-layer Aerolite foam throughout the construction of the gloves.
+						</div>
+						<li class="BAUER VAP">BAUER VAPOR APX2 GLOVES $230 <button>Add to Cart</button></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+		<br>
+	<!-- The Footer****************************************** -->
+<!-- 		<div class="error"><?php echo($error_string); ?></div> -->
+<!-- 			<div class="footercontainer">
+				<div class="content6">	
+					<div class="form">
+						<form action="index.php" method="POST" id="cart_form">
+						<input type="text" name="first_name" class="first_name" placeholder="First Name">
+						<input type="text" name="last_name" class="last_name" placeholder="Last Name"><br>
+						<input type="text" name="address" class="address" placeholder="Address"><br> -->
+<!-- 						<textarea rows="1" cols="70" name="address" class="address" form="address" placeholder="Address"></textarea><br> -->
+<!-- 						<input type="text" name="city" class="city" placeholder="City">
+						<input type="text" name="state" class="state" placeholder="State">
+						<input type="zip" name="zip" class="zip" placeholder="Zip"><br>
+						<input type="text" name="email"	class="email" placeholder="Email">
+						<input type="text" name="phone" class="phone" placeholder="Phone"><br>
+						<input type="number" name="cc_number" class="cc_number" placeholder="cc_number"><br>
+						<button id="test" class="submit_game">Submit</button>
+					</div>
+				</div>
+			</div> -->
+		</body>
+	</main>
+</html>
+
+

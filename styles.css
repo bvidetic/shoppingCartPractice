@@ -1,0 +1,204 @@
+{
+	margin:center 0;
+	padding: 0;
+	position-center
+}
+
+/* The main container -------------------------------------------------------*/
+
+.main {
+	width: 960px;
+	height: 960px;
+	margin: 0 auto;
+}
+
+.background {
+	width: 960px;
+	height: 960px;
+	margin: 0 auto;
+}
+
+
+/* The Header --------------------------------------------------------------*/
+
+.headercontainer {
+	background-color: black;
+	width: 960px;
+	height:86px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.content1 {
+	background-color: gray;
+	width: 760px;
+	height:86px;	
+	border-radius: 3px;
+	float: left;
+}
+
+.h1{
+	padding-bottom: 10px;
+	padding-left: 167px;
+	color: white;
+	font-size: 40px;
+}
+
+.adhere {
+	width: 189px;
+	height: 85px;
+	float: right;
+	margin-right: -197px;
+	margin-top: -111px;
+	margin-bottom: 10px;
+}
+
+
+/* The Cart --------------------------------------------------------------*/
+
+.asidecontainer {
+	background-color: black;
+	float: right;
+	width: 196px;
+	height: 275px;
+	border-radius: 5px;
+	margin-right: -10px;
+}
+
+
+.asidetop {
+	background-color: gray;
+	float: right;
+	width: 182px;
+	height:50px;	
+	border-radius: 3px;
+	color: white;
+	margin-right: 6px;
+	margin-top: 6px;
+}
+
+.topcontent {
+	margin-left: 59px;
+	margin-top: 15px;
+	font-size: 20px
+}
+	
+.bottomcontent {
+	background-color: gray;
+	float: left;
+	width: 182px;
+	height:208px;	
+	border-radius: 3px;
+	color: white;
+	margin-left: -59px;
+	margin-top: 16px;
+}
+
+.cart{
+	padding-right: 5px
+}
+
+.checkout{
+	float: right;
+	margin-top: -44px;
+	position: inherit;
+}
+
+.h3{
+	color: white;
+}
+
+.keepshopping{
+	height:21px;
+	width:71px;
+}
+
+
+/* The Products-----------------------------------------------*/
+
+
+.mainPcontainer {
+	float-left;
+	background-color: black;
+	border-radius: 5px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	overflow: hidden;
+	width: 758px;
+	height:1010px;
+}
+
+.mainGray {
+	float-left;
+	padding-top: 5px;
+	background-color: gray;
+	border-radius: 5px;
+	width: 746px;
+	height:1000px;
+	margin-left: 6px;
+	margin-top: 4px;
+}
+
+.h2{
+	padding-bottom: 10px;
+	padding-left: 37px;
+	color: white;
+	font-size: 20px;
+}
+
+.topMcontent {
+	margin-left: 59px;
+	margin-top: 15px;
+	font-size: 20px
+}
+
+.box1 {
+	background-color: black;
+	padding: 5px;
+	overflow: hidden;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.products {
+	background-color: gray;
+	margin-left: 1px;
+	min-height: 200px;
+	overflow: hidden;
+	color: white;
+	border-radius:5px;
+}
+
+.info{
+	float: right;
+	width: 382px;
+	height: 227px;
+	float: right 10px;
+	padding-top: 10px
+}
+
+
+
+/* The Footer --------------------------------------------------------------*/
+
+.footercontainer {
+	float-left;
+	background-color: black;
+	border-radius: 5px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	overflow: hidden;
+	width: 758px;
+	height:150px;
+}
+
+.content6 {
+	float-left;
+	padding-top: 5px;
+	background-color: gray;
+	border-radius: 5px;
+	width: 746px;
+	height:140px;
+	margin-left: 6px;
+	margin-top: 4px;
+}
